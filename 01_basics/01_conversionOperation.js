@@ -26,3 +26,26 @@ let someNumber = 33
 
 let stringNumber = String(someNumber)
 console.log(stringNumber);
+
+
+
+
+// ***************************Operations*************************************
+
+let value = 3
+let negative = -value
+// console.log(negative)
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**3)
+// console.log(2/3)
+// console.log(2%3)
+
+let str1="sara"
+
+let str2="fatma"
+let str3= str1 + str2
+console.log(str3);
+
