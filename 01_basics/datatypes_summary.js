@@ -55,3 +55,4 @@ console.log(typeof bigNumber);
 // 2) Objects 
 // 3) Functions 
 //  
+
