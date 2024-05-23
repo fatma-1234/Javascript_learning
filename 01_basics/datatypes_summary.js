@@ -55,4 +55,13 @@ console.log(typeof bigNumber);
 // 2) Objects 
 // 3) Functions 
 //  
+// ******************************Memory ************************************
+
+// 1) stack Memory => jitne bhi primitive type hain waha pe stack memory use hoti hai ...
+// jab bhi stack memory use hoti hai iska matlab ye hai ki jo bhi variable declare kiya hai uska ek copy milta hai ..
+
+// 2) Heap Memory => jitne bhi non primitive type hain waha pe heap memory use hoti hai ...
+// jab bhi heap memory use hoti hai iska matlab hai ki wahan se original value milti hai , or reference kah sakte hain 
+// jo bhi change krenge original value me change hoga 
+
 
