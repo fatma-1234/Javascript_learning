@@ -22,26 +22,33 @@
 // const scorevalue =  100.3
 
 
-const IsloggedIn= false 
-const outsideTemp= null
-let userEmail; 
+// const IsloggedIn= false 
+// const outsideTemp= null
+// let userEmail; 
 
 // Reference (Non primitive)
 // Array , Objects , Function
-const heros= ["Mohammad", "Papa", "me"];
-let myObj = {
-    name:"sara",
-    age: 22,
-}
+// const heros= ["Mohammad", "Papa", "me"];
+// let myObj = {
+//     name:"sara",
+//     age: 22,
+// }
 
 // function(){} syntax of function 
 
-const myFunction = function(){
-    console.log("Hello world")
+// const myFunction = function(){
+//     console.log("Hello world")
 
-}
 
-console.log(typeof bigNumber);
+
+// console.log(typeof bigNumber);
+
+// satck (primitive ), Heap (non-primitive )
+//  jitne bhi primitive type data type honge waha stack memory use hoti hai ...
+
+// let myyoutubename = "sarafatma674"
+// let anothername = myyoutube 
+
 
  
 
@@ -65,3 +72,23 @@ console.log(typeof bigNumber);
 // jo bhi change krenge original value me change hoga 
 
 
+let myyoutubeName= "sarafatma674@gmail.com"
+
+let anotherName = myyoutubeName
+anotherName = "sarafatma67"
+console.log(anotherName);
+console.log(myyoutubeName);
+
+
+let userone = {
+    email: "fatmasara918@gmail.com",
+    upi: "user@ybl"
+
+}
+
+let usertwo = userone 
+
+usertwo.email = "hitesh@google.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
