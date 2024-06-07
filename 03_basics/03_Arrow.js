@@ -12,8 +12,8 @@ const user = {
 // user.welcomeMessage()
 
 // here we changed the cotext means value ..
-// user.username = "sam"
-// user.welcomeMessage()
+user.username = "sam"
+user.welcomeMessage()
 console.log(this);
 
 // function chai(){
@@ -24,25 +24,25 @@ console.log(this);
 // chai()
 
 // Arrow functon 
-const chai = () => {
-    let username = "hitesh"
-    console.log(this);
+// const chai = () => {
+//     let username = "hitesh"
+//     console.log(this);
 
 
-}
+// }
 
 // () => Arrow function 
 //  !st Method = (Explicit Return )
-// const addTwo = (num1, num2) => {
+//  const addTwo = (num1, num2) => {
 //     return num1 + num2
-// }
+//  }
 
-// 2nd methos to print (Implicit Return)
+// 2nd method to print (Implicit Return)
 // const addTwo = (num1, num2) => (num1 + num2)
 
 
 
-console.log(addTwo(5, 7))
+// console.log(addTwo(5, 7))
 
 
 
