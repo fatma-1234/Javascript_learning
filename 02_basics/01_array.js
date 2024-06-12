@@ -7,7 +7,7 @@ const myarr= [0,1,2,3,4,5,6,7];
 // console.log(myarr[1]);
 
 // Methods 
-// push() for adding lement 
+// push() for adding element 
 // myArr2.push(6)
 // myArr2.push(7)
 // myArr2.push(8)
@@ -15,10 +15,10 @@ const myarr= [0,1,2,3,4,5,6,7];
 // myArr2.pop()
 // myArr2.pop()
 
- // unshift operator will add a eleent in index 0 ..means all elements will be shifted 
+ // unshift operator will add a element in index 0 ..means all elements will be shifted 
 // myArr2.unshift(9)
 
-// shift() methos remove that element wich has been added at the index 
+// shift() method remove that element wich has been added at the index 
 
 // myArr2.shift()
 // console.log(myArr2);

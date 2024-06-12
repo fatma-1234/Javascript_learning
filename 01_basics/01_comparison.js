@@ -19,7 +19,7 @@ console.log(undefined < 0);
 
 
 
-/* the Reason is that an eqauality check == and comparison >, <, <=, >= wok differently.
+/* the Reason is that an eqauality check == and comparison >, <, <=, >= work differently.
  Comparisons convert null to a number , treating it as 0 . 
  that's why(3) null >= 0 is true and (1) null > 0 is false*/
 
