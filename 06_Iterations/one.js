@@ -28,7 +28,7 @@
 //     console.log(`outer loop value: ${i}`);
 //     for (let j =0; j<=10; j++){
 //         console.log(`Inner loop value ${j} and inner loop ${i}`);
-           console.log(i + '*' + j + '=' + i*j);
+        //    console.log(i + '*' + j + '=' + i*j);
 //     }
     
     
@@ -42,17 +42,18 @@
 // }
 
 // break and continue 
+// 
 
-for (let index = 1; index <= 20; index++) {
-    if( index == 5 ) {
-        console.log(`dedected 5`);
-        break
+// for (let index = 1; index <= 20; index++) {
+//     if( index == 5 ) {
+//         console.log(`dedected 5`);
+//         break
         
-    }
-    console.log(`value of 1 is ${index}`);
+//     }
+//     console.log(`value of index is ${index}`);
     
     
-}
+// }
 
 // continue 
 for (let index = 1; index <= 20; index++) {
@@ -65,6 +66,7 @@ for (let index = 1; index <= 20; index++) {
     
     
 }
+
 
 
 

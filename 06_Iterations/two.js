@@ -17,10 +17,15 @@
 // }
 
 // do while loop  pahle kaam kro fir paisa denge 
-score = 11 
+// pahle karo fir condition check hoga 
+
+score = 1
 do {
     console.log(`score is ${score}`);
     score++
+
     
 } while (score <=10);
+
+
 

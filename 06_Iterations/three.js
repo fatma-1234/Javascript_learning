@@ -1,4 +1,6 @@
 // Array Specific loops :)
+// database se koi bhi value agar fetch karna ho toh arry loops mostly use karte hain ..
+
 
 // for of  array specific loops 
 
